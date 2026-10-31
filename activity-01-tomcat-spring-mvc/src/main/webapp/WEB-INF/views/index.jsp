@@ -1,0 +1,3 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Laboratório Tomcat e Spring MVC</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"></head>
+<body class="bg-light"><main class="container py-5"><div class="card shadow-sm border-0"><div class="card-body p-5"><span class="badge text-bg-success mb-3">HTTP 200</span><h1>Laboratório Spring Web MVC</h1><p class="lead">${status}</p><p>Aplicação Java Web implantada no Apache Tomcat.</p></div></div></main></body></html>

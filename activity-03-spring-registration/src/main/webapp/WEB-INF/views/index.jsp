@@ -1,0 +1,13 @@
+<%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Formulário de Cadastro</title><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"></head>
+<body class="bg-light"><main class="container py-5"><div class="card border-0 shadow-sm mx-auto" style="max-width:960px"><div class="card-header bg-dark text-white p-3"><h1 class="h4 m-0">Formulário de Cadastro</h1></div><div class="card-body p-4"><p class="text-success">${mensagem}</p><form method="post" action="${pageContext.request.contextPath}/cadastrar" class="row g-3"><div class="col-md-6"><label for="nome" class="form-label">Nome</label><input id="nome" name="nome" class="form-control" type="text" required ></div>
+<div class="col-md-6"><label for="sobrenome" class="form-label">Sobrenome</label><input id="sobrenome" name="sobrenome" class="form-control" type="text" required ></div>
+<div class="col-md-6"><label for="email" class="form-label">E-mail</label><input id="email" name="email" class="form-control" type="email" required ></div>
+<div class="col-md-6"><label for="senha" class="form-label">Senha</label><input id="senha" name="senha" class="form-control" type="password" required ></div>
+<div class="col-md-6"><label for="cep" class="form-label">CEP</label><input id="cep" name="cep" class="form-control" type="text" required maxlength="8" inputmode="numeric"></div>
+<div class="col-md-6"><label for="rua" class="form-label">Rua</label><input id="rua" name="rua" class="form-control" type="text" required ></div>
+<div class="col-md-6"><label for="bairro" class="form-label">Bairro</label><input id="bairro" name="bairro" class="form-control" type="text" required ></div>
+<div class="col-md-6"><label for="cidade" class="form-label">Cidade</label><input id="cidade" name="cidade" class="form-control" type="text" required ></div>
+<div class="col-md-6"><label for="estado" class="form-label">Estado (UF)</label><input id="estado" name="estado" class="form-control" type="text" required ></div>
+<div class="col-md-6"><label for="numero" class="form-label">Número</label><input id="numero" name="numero" class="form-control" type="text" required ></div>
+<div class="col-md-6"><label for="complemento" class="form-label">Complemento</label><input id="complemento" name="complemento" class="form-control" type="text"  ></div><div class="col-12"><button type="submit" class="btn btn-primary">Cadastrar</button></div></form><p class="small text-muted mt-3">Demonstração: os dados não são armazenados.</p></div></div></main></body></html>
